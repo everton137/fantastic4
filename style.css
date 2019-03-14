@@ -35,7 +35,7 @@
         margin-right: 0%;}
     li {
         display: inline;
-        padding: 0.5em;}
+        padding: 4.5em;}
     #nav {
         background-color: #244E52;
         padding: 20px;}
@@ -69,4 +69,16 @@
     .main-img img {
         box-shadow: 0 0 40px #0f5d70;
 
+    }
+
+    .copy-left {
+        display: inline-block;
+        text-align: right;
+        margin: 0px;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: “FlipH”;
     }
